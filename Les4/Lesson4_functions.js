@@ -20,6 +20,6 @@ function getMinValue(a, b) {
     return (a < b) ? a : b
 }
 
-console.log(minValue(2, 4));
-console.log(minValue(4, 1));
-console.log(minValue(10, 10));
+console.log(getMinValue(2, 4));
+console.log(getMinValue(4, 1));
+console.log(getMinValue(10, 10));
