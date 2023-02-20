@@ -14,16 +14,16 @@ switch (browser) {
     alert( 'Маємо надію, що ця сторінка виглядає добре!' );} */
 let browser = 'Safari';
 if (browser == `Edge`) {
-    alert("You've got the Edge!");
+  alert("You've got the Edge!");
 }
 else if (browser == 'Chrome' || 'Safari' || 'Opera') {
-    alert('Ми підтримуємо і ці браузери');
+  alert('Ми підтримуємо і ці браузери');
 }
 else if (browser == 'Opera') {
-    alert('Ми підтримуємо і ці браузери');
+  alert('Ми підтримуємо і ці браузери');
 }
 else {
-    alert('Маємо надію, що ця сторінка виглядає добре!');
+  alert('Маємо надію, що ця сторінка виглядає добре!');
 }
 
 /*Перепишіть умови "if" в конструкцію "switch"
@@ -40,15 +40,15 @@ if (a == 2 || a == 3) {
 
 let a = +prompt('a?', '');
 switch (a) {
-    case 0:
-        alert(0);
-        break;
+  case 0:
+    alert(0);
+    break;
 
-    case 1:
-        alert(1);
-        break;
-    case 2:
-    case 3:
-        alert('2,3')
-        break;
+  case 1:
+    alert(1);
+    break;
+  case 2:
+  case 3:
+    alert('2,3')
+    break;
 }

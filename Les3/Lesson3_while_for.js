@@ -40,7 +40,7 @@ mark:
 for (let tempvalue = 2; tempvalue <= n; tempvalue++) {
     for (let i = 2; i < tempvalue; i++) {
         if (tempvalue % i == 0)
-        continue mark;    
+            continue mark;
     }
     console.log(`${tempvalue} is a simple number`)
 }

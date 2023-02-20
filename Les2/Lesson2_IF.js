@@ -4,13 +4,13 @@
 
 let jsname = prompt("What is the official name of JavaScript?", "");
 
-if(jsname == "ECMAScript"){
-    alert("Correct!");
+if (jsname == "ECMAScript") {
+  alert("Correct!");
 }
-else{
-    alert("Don't know know? ECMAScript!");
+else {
+  alert("Don't know know? ECMAScript!");
 }
-    
+
 /* Використовуючи if..else, напишіть код, що отримує число за допомогою prompt і потім виводить повідомлення alert:
 1, якщо значення більше нуля,
 -1, якщо меньше нуля,
@@ -19,14 +19,14 @@ else{
 
 let number = prompt('Enter any number', '');
 
-if (number > 0){
-    alert(1);
+if (number > 0) {
+  alert(1);
 }
-else if(number < 0){
-    alert(-1);
+else if (number < 0) {
+  alert(-1);
 }
-else{
-    alert(0);
+else {
+  alert(0);
 }
 
 /* Перепишіть конструкцію if, використовуючи умовний оператор '?':
@@ -47,7 +47,7 @@ let message;
 
 if (login == 'Працівник') {
   message = 'Привіт';
-} else if (login == 'Директор') {
+} else if (login === 'Директор') {
   message = 'Вітаю';
 } else if (login == '') {
   message = 'Немає логіну';
@@ -56,4 +56,4 @@ if (login == 'Працівник') {
 } */
 
 let message;
-message = (login == 'Працівник') ? 'Привіт' : (login == 'Директор') ? 'Вітаю' : (login == '') ? 'Немає логіну' : '';
+message = (login === 'Працівник') ? 'Привіт' : (login == 'Директор') ? 'Вітаю' : (login == '') ? 'Немає логіну' : '';
