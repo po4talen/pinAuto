@@ -4,7 +4,7 @@
 function getSum1(a, b) {
     return a + b;
 }
-console.log(getSum1(5, 2))
+console.log(getSum1(5, 2));
 
 //Перепишіть функцію, використовуючи '?' або '||'
 
