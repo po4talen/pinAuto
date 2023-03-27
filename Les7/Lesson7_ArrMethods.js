@@ -4,7 +4,7 @@
 
 let arr2 = [2, 3, 4, 5, 9, 11, 1];
 
-let filtered = filterRange(arr2, 1, 4)
+let filtered = filterRange(arr2, 1, 4);
 
 //function with arr.filter
 function filterRange(arr, a, b) {
@@ -17,20 +17,20 @@ function filterRange2(arr, a, b) {
         if (item >= a && item <= b) {
             return item;
         }
-    }).filter((item) => item != null)
-    return temp
+    }).filter((item) => item != null);
+    return temp;
 }
-console.log(filtered)
+console.log(filtered);
 
 /* Створити функцію palindrome, яка повертає булеве значення. Паліндромом називають слово чи фразу, яка читається в обидві сторони однаково. Наприклад: anna
 function(str) {	return your_code} */
 
 
-console.log(palindrome(`anna`))
-console.log(palindrome(`радар`))
-console.log(palindrome(`роберт`))
+console.log(palindrome(`anna`));
+console.log(palindrome(`радар`));
+console.log(palindrome(`роберт`));
 
 function palindrome(str) {
-    let reversStr = str.split("").reverse().join("")
+    let reversStr = str.split("").reverse().join("");
     return str === reversStr;
 }
